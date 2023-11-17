@@ -1,9 +1,9 @@
 {
   "name": "fnclauncher",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "productName": "Fun And Chill Launcher",
   "description": "Fun And Chill Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/ifalnou/)",
+  "author": "Ifalnou (https://github.com/ifalnou/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/ifalnou/HeliosLauncher",
   "bugs": {
@@ -15,8 +15,6 @@
     "start": "electron .",
     "dist": "electron-builder build",
     "dist:win": "npm run dist -- -w",
-    "dist:mac": "npm run dist -- -m",
-    "dist:linux": "npm run dist -- -l",
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
