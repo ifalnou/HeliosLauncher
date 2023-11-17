@@ -542,15 +542,15 @@ body, button {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
     }
-    
+
     20%, 80% {
         transform: translate3d(2px, 0, 0);
     }
-  
+
     30%, 50%, 70% {
         transform: translate3d(-4px, 0, 0);
     }
-  
+
     40%, 60% {
         transform: translate3d(4px, 0, 0);
     }
@@ -2489,7 +2489,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    width: 45%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2505,7 +2505,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 34%;
+    width: 10%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2520,7 +2520,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    width: 45%;
     display: inline-flex;
 }
 
@@ -2858,9 +2858,11 @@ input:checked + .toggleSwitchSlider:before {
     height: 70px;
     width: auto;
     position: relative;
-    border: 2px solid white;
+    border: none;
     box-sizing: border-box;
     border-radius: 50%;
+    -webkit-filter: drop-shadow(5px 5px 10px #000);
+    filter: drop-shadow(5px 5px 10px #000);
 }
 
 /* Logo container styles. */
@@ -3203,7 +3205,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Maintains maximum width on the status bar. */
 #server_status_wrapper {
     display: inline-flex;
-    width: 75px;
+    width: 200px;
 }
 
 /* Span which displays the player count of the selected server. */
@@ -3426,7 +3428,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 25px;
     display: none;
 }
- 
+
 /* Left side of launch details container, displays percentage and a divider. */
 #launch_details_left {
     display: flex;
